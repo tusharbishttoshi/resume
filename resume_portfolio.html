@@ -1,422 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>e-Resume</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="favicon.png" type="image/png">
-<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Titillium+Web&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-<script src="https://kit.fontawesome.com/9d071200ac.js" crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-  <style>
-    *
-    {
-      font-family: 'Titillium Web', sans-serif;
-    }
-    .bg-dark
-    {
-      background-color: #2c3e50 !important;
-    }
-    .active
-    {
-      background: #1abc9c;
-      border-radius: 10px;
-    }
-    .profile
-    {
-      background-color: #1abc9c;
-      padding-top: 145px;
-      padding-bottom: 70px;
-    }
-    .profile-sec
-    {
-      background-color: #1abc9c;
-      padding-top: 70px;
-      padding-bottom: 70px;
-    }
-    .portfolio
-    {
-      padding-top: 70px;
-      padding-bottom: 70px;
-    }
-    .one
-    {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-    }
-    .devider-line
-    {
-      width: 100%;
-      max-width: 4rem;
-      height: .25rem;
-      background-color: #fff;
-      position: relative;
-      top: 2px;
-      left: -57px;
-    }
-    .devider-line-two
-    {
-      width: 100%;
-      max-width: 4rem;
-      height: .25rem;
-      background-color: #fff;
-      position: relative;
-      top: -33px;
-      right: -57px;
-    }
-    .devider-line-three
-    {
-      width: 100%;
-      max-width: 4rem;
-      height: .25rem;
-      background-color: rgb(0,0,0);
-      position: relative;
-      top: 2px;
-      left: -57px;
-    }
-    .devider-line-four
-    {
-      width: 100%;
-      max-width: 4rem;
-      height: .25rem;
-      background-color: rgb(0,0,0);
-      position: relative;
-      top: -33px;
-      right: -57px;
-    }
-    .star
-    {
-      font-size: 2rem;
-      color: #fff;
-      position: relative;
-      top: -13px;
-    }
-    .star-d
-    {
-      font-size: 2rem;
-      color: rgb(0,0,0);
-      position: relative;
-      top: -13px;
-    }
-    .web,.web-d,.graph
-    {
-      color: #fff;
-      font-size: 20px;
-    }
-.r-one
-{
-  width: 100%;
-  display: flex;
-flex-wrap: wrap;
-margin-right: -15px;
-margin-left: -15px;
-}
-
-  </style>
-
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-<!-- navigation -->
-<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top text-uppercase">
-  <a class="navbar-brand" id="logo" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    Menu<span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav ml-auto" id="navbar">
-      <li class="nav-item">
-        <a class="nav-link active text-white" href="#section1"><b>portfolio</b></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#section2"><b>about</b></a>
-      </li>
-      <li class="nav-item">
-         <a class="nav-link text-white" href="#section3"><b>contact</b></a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
-<!-- close navigation -->
-<div id="section" class="container-fluid profile">
-  <div class="container one">
-    <img class="avt mb-5 img-thumbnail mt-3" src="images/avatar.jpg">
-    <h1 class="text-white text-uppercase mb-4">tushar bisht</h1>
-   <div class="devider-line">
-</div>
-     <i class="fas fa-star star ml-2 mr-2">
-     </i>
-   <div class="devider-line-two mb-4">
-  </div>
-<div class="intro">
-  <span class="web">Web Designer-</span>
-  <span class="web-d">Developer-</span>
-  <span class="graph">Graphics Designer</span>
-</div>
-  </div>
-</div>
-<div id="section1" class="container-fluid portfolio">
-  <div class="container one">
-    <h1 class="text-dark text-uppercase mb-4">portfolio</h1>
-    <div class="devider-line-three">
-</div>
-     <i class="fas fa-star star-d ml-2 mr-2">
-     </i>
-   <div class="devider-line-four mb-4">
-  </div>
-    <div class="row">
-    <div class="col-lg-4 col-md-6 col-sm-12">
-
-<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/avatar.jpg"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-12">
-
-<a href="#" data-toggle="modal" data-target="#myModal1"><img src="images/avatar.jpg"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-12">
-
-<a href="#" data-toggle="modal" data-target="#myModal2"><img src="images/avatar.jpg"></a>
-</div>
-</div>
-  <div class="row">
-    <div class="col-lg-4 col-md-6 col-sm-12">
-
-<a href="#" data-toggle="modal" data-target="#myModal3"><img src="images/avatar.jpg"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-12">
-
-<a href="#" data-toggle="modal" data-target="#myModal4"><img src="images/avatar.jpg"></a>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-12">
-
-<a href="#" data-toggle="modal" data-target="#myModal5"><img src="images/avatar.jpg"></a>
-</div>
-</div>
-  <!-- The Modal -->
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h1 class="modal-title text-center w-100">Log Cabin</h1>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-         <img src="images/modal.jpg" class="rounded">
-         <p class="mt-3 text-center">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       </p>
-        </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
-        </div>
-        
+   <head>
+      <title>e-Resume</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="favicon.png" type="image/png">
+      <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Titillium+Web&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/9d071200ac.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/social.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+   </head>
+   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top text-uppercase">
+         <a class="navbar-brand" id="logo" href="#">Navbar</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         Menu<span class="navbar-toggler-icon ml-2"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto" id="navbar">
+               <li class="nav-item">
+                  <a class="nav-link active text-white" href="#section1"><b>portfolio</b></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white" href="#section2"><b>about</b></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-white" href="#section3"><b>contact</b></a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!-- close navigation -->
+      <div id="section" class="container-fluid profile">
+         <div class="container one">
+            <img class="avt mb-5 img-thumbnail mt-3 rounded-circle" src="images/avatar.jpg">
+            <h1 class="text-white text-uppercase mb-4">tushar bisht</h1>
+            <div class="devider-line"></div>
+            <i class="fas fa-star star ml-2 mr-2">
+            </i>
+            <div class="devider-line-two mb-4">
+            </div>
+            <div class="intro">
+               <span class="web">Web Designer-</span>
+               <span class="web-d">Developer-</span>
+               <span class="graph">Graphics Designer</span>
+            </div>
+         </div>
       </div>
-    </div>
-  </div>
- <!-- The Modal -->  
-
- <!-- The Modal -->
-  <div class="modal fade" id="myModal1">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h1 class="modal-title text-center w-100">Modal Heading</h1>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-          <img src="images/modal1.jpg" class="rounded">
-          <p class="mt-3 text-center">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       </p>
-        </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
-        </div>
-        
+      <div id="section1" class="container-fluid portfolio">
+         <div class="container one">
+            <h1 class="text-dark text-uppercase mb-4">portfolio</h1>
+            <div class="devider-line-three"></div>
+            <i class="fas fa-star star-d ml-2 mr-2">
+            </i>
+            <div class="devider-line-four mb-4">
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                  <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/avatar.jpg"></a>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                  <a href="#" data-toggle="modal" data-target="#myModal1"><img src="images/avatar.jpg"></a>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                  <a href="#" data-toggle="modal" data-target="#myModal2"><img src="images/avatar.jpg"></a>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                  <a href="#" data-toggle="modal" data-target="#myModal3"><img src="images/avatar.jpg"></a>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                  <a href="#" data-toggle="modal" data-target="#myModal4"><img src="images/avatar.jpg"></a>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                  <a href="#" data-toggle="modal" data-target="#myModal5"><img src="images/avatar.jpg"></a>
+               </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+               <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                     <!-- Modal Header -->
+                     <div class="modal-header">
+                        <h1 class="modal-title text-center w-100">Log Cabin</h1>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     </div>
+                     <!-- Modal body -->
+                     <div class="modal-body">
+                        <img src="images/modal.jpg" class="rounded img-fluid">
+                        <p class="mt-3 text-center">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                     </div>
+                     <!-- Modal footer -->
+                     <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- The Modal -->  
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal1">
+               <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                     <!-- Modal Header -->
+                     <div class="modal-header">
+                        <h1 class="modal-title text-center w-100">Modal Heading</h1>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     </div>
+                     <!-- Modal body -->
+                     <div class="modal-body">
+                        <img src="images/modal1.jpg" class="rounded img-fluid">
+                        <p class="mt-3 text-center">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                     </div>
+                     <!-- Modal footer -->
+                     <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- The Modal -->  
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal2">
+               <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                     <!-- Modal Header -->
+                     <div class="modal-header">
+                        <h1 class="modal-title text-center w-100">Modal Heading</h1>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     </div>
+                     <!-- Modal body -->
+                     <div class="modal-body">
+                        <img src="images/modal2.jpg" class="rounded img-fluid">
+                        <p class="mt-3 text-center">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                     </div>
+                     <!-- Modal footer -->
+                     <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- The Modal -->  
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal3">
+               <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                     <!-- Modal Header -->
+                     <div class="modal-header">
+                        <h1 class="modal-title w-100 text-center">Modal Heading</h1>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     </div>
+                     <!-- Modal body -->
+                     <div class="modal-body">
+                        <img src="images/modal3.jpg" class="rounded img-fluid">
+                        <p class="mt-3 text-center">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                     </div>
+                     <!-- Modal footer -->
+                     <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- The Modal -->  
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal4">
+               <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                     <!-- Modal Header -->
+                     <div class="modal-header">
+                        <h1 class="modal-title text-center w-100">Modal Heading</h1>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     </div>
+                     <!-- Modal body -->
+                     <div class="modal-body">
+                        <img src="images/modal4.jpg" class="rounded img-fluid">
+                        <p class="mt-3 text-center">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                     </div>
+                     <!-- Modal footer -->
+                     <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- The Modal -->  
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal5">
+               <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                     <!-- Modal Header -->
+                     <div class="modal-header">
+                        <h1 class="modal-title w-100 text-center">Modal Heading</h1>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     </div>
+                     <!-- Modal body -->
+                     <div class="modal-body">
+                        <img src="images/modal5.jpg" class="rounded img-fluid">
+                        <p class="mt-3 text-center">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                     </div>
+                     <!-- Modal footer -->
+                     <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- The Modal --> 
+         </div>
       </div>
-    </div>
-  </div>
- <!-- The Modal -->  
-
- <!-- The Modal -->
-  <div class="modal fade" id="myModal2">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h1 class="modal-title text-center w-100">Modal Heading</h1>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-          <img src="images/modal2.jpg" class="rounded">
-          <p class="mt-3 text-center">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       </p>
-        </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
-        </div>
-        
+      <div id="section2" class="container-fluid profile-sec">
+         <div class="container one">
+            <h1 class="text-white text-uppercase mb-4">about me</h1>
+            <div class="devider-line">
+            </div>
+            <i class="fas fa-star star ml-2 mr-2">
+            </i>
+            <div class="devider-line-two mb-4">
+            </div>
+         </div>
+         <div class="container one">
+            <div class="row r-one">
+               <div class="col-md-4 md-order-1 order-2">
+                  <img src="images/avatar.jpg" class="rounded-circle img-fluid">
+               </div>
+               <div class="col-md-8 order-1 md-order-2">
+                  <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed enim ut sem viverra aliquet eget sit. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Vitae auctor eu augue ut lectus arcu. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Praesent tristique magna sit amet purus gravida quis blandit turpis. Nec nam aliquam sem et tortor. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum. In massa tempor nec feugiat. Neque gravida in fermentum et. Diam maecenas ultricies mi eget mauris pharetra et. Nullam ac tortor vitae purus faucibus. Mi eget mauris pharetra et ultrices. Euismod in pellentesque massa placerat. Auctor eu augue ut lectus arcu bibendum at varius vel. Tortor at risus viverra adipiscing at in. Donec ac odio tempor orci dapibus ultrices in iaculis. Facilisis leo vel fringilla est ullamcorper eget nulla. Arcu ac tortor dignissim convallis.</p>
+                  <button class="btn btn-success mb-4">view resume</button>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  </div>
- <!-- The Modal -->  
-
- <!-- The Modal -->
-  <div class="modal fade" id="myModal3">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h1 class="modal-title w-100 text-center">Modal Heading</h1>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-          <img src="images/modal3.jpg" class="rounded">
-          <p class="mt-3 text-center">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       </p>
-        </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
-        </div>
-        
+      <div id="section3" class="container-fluid mb-5">
+         <div class="container one">
+            <h1 class="text-dark text-uppercase mt-5 mb-4">contact</h1>
+            <div class="devider-line-three"></div>
+            <i class="fas fa-star star-d ml-2 mr-2">
+            </i>
+            <div class="devider-line-four mb-4">
+            </div>
+         </div>
+         <div class="container">
+            <form action="/action_page.php">
+               <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+               </div>
+               <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+               </div>
+               <div class="form-group">
+                  <label for="comment">Message</label>
+                  <textarea class="form-control" rows="5" id="comment" placeholder="write your message here..." name="text"></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+         </div>
       </div>
-    </div>
-  </div>
- <!-- The Modal -->  
-
- <!-- The Modal -->
-  <div class="modal fade" id="myModal4">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h1 class="modal-title text-center w-100">Modal Heading</h1>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-          <img src="images/modal4.jpg" class="rounded">
-          <p class="mt-3 text-center">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       </p>
-        </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
- <!-- The Modal -->  
-
- <!-- The Modal -->
-  <div class="modal fade" id="myModal5">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h1 class="modal-title w-100 text-center">Modal Heading</h1>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-          <img src="images/modal5.jpg" class="rounded">
-          <p class="mt-3 text-center">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       </p>
-        </div>
-        
-        <!-- Modal footer -->
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-success" data-dismiss="modal">&times; Close Window</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
- <!-- The Modal --> 
-</div>
-</div>
-
-
-<div id="section2" class="container-fluid profile-sec">
-<div class="container one">
-  <h1 class="text-white text-uppercase mb-4">about me</h1>
-  <div class="devider-line">
-    
-</div>
-     <i class="fas fa-star star ml-2 mr-2">
-     </i>
-   <div class="devider-line-two mb-4">
-  </div>
-</div>
-</div>
-<div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-  <h1>Section 3</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-  <h1>Section 4 Submenu 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<footer>
-   <h1>Section 4 Submenu 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</footer>
-<script>
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.padding = "10px 10px";
-    document.getElementById("logo").style.fontSize = "20px";
-  } else {
-    document.getElementById("navbar").style.padding = "15px 15px";
-    document.getElementById("logo").style.fontSize = "30px";
-  }
-}
-</script>
-
-</body>
+      <footer class="foot_one">
+         <div id="section41" class="container-fluid">
+            <div class="container two text-white">
+               <div class="a">
+                  <h2 class="text-uppercase">Navbar</h2>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+               </div>
+               <div class="b">
+                  <h5 class="text-uppercase">quick links</h5>
+                  <ul class="list-unstyled lu">
+                     <li><a href="#">portfolio</a></li>
+                     <li><a href="#">about</a></li>
+                     <li><a href="#">contact</a></li>
+                     <li><a href="#">testimonials</a></li>
+                  </ul>
+               </div>
+               <div class="c">
+                  <h5 class="text-uppercase">Contact</h5>
+                  <form action="/action_page.php">
+                     <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+                     </div>
+                     <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                     </div>
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+               </div>
+            </div>
+            <div class="container three">
+              <a href="https://www.facebook.com/tushar.bisht.96" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/tusharbisht17" class="fa fa-twitter"></a>
+              <a href="https://www.linkedin.com/in/tushar-bisht-943297170/" class="fa fa-linkedin"></a>
+              <a href="https://www.instagram.com/web_talks/" class="fa fa-instagram"></a>
+            </div>
+         </div>
+      </footer>
+      <script>
+         // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+             document.getElementById("navbar").style.padding = "10px 10px";
+             document.getElementById("logo").style.fontSize = "20px";
+           } else {
+             document.getElementById("navbar").style.padding = "15px 15px";
+             document.getElementById("logo").style.fontSize = "30px";
+           }
+         }
+      </script>
+   </body>
 </html>

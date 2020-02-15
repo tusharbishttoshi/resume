@@ -6,15 +6,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="icon" href="favicon.png" type="image/png">
       <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Titillium+Web&display=swap" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-      <script src="https://kit.fontawesome.com/9d071200ac.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/social.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      
    </head>
    <body data-spy="scroll" data-target=".navbar" data-offset="50">
       <!-- navigation -->
@@ -64,7 +63,7 @@
             </div>
             <div class="row">
                <div class="col-lg-4 col-md-6 col-sm-12">
-                  <a href="#" data-toggle="modal" data-target="#myModal"><img src="images/avatar.jpg"></a>
+                  <a href="#" data-toggle="modal" data-target="#myModal"><img class="img-fluid" src="images/avatar.jpg"></a>
                </div>
                <div class="col-lg-4 col-md-6 col-sm-12">
                   <a href="#" data-toggle="modal" data-target="#myModal1"><img src="images/avatar.jpg"></a>
@@ -283,7 +282,7 @@
          <div id="section41" class="container-fluid">
             <div class="container two text-white">
                <div class="a">
-                  <h2 class="text-uppercase">Navbar</h2>
+                  <h2 class="text-uppercase" id="logo">Navbar</h2>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                </div>
                <div class="b">
@@ -310,12 +309,14 @@
                   </form>
                </div>
             </div>
-            <div class="container three">
-              <a href="https://www.facebook.com/tushar.bisht.96" class="fa fa-facebook"></a>
-              <a href="https://twitter.com/tusharbisht17" class="fa fa-twitter"></a>
-              <a href="https://www.linkedin.com/in/tushar-bisht-943297170/" class="fa fa-linkedin"></a>
-              <a href="https://www.instagram.com/web_talks/" class="fa fa-instagram"></a>
+
+            <div class="container three pb-4">
+              <a href="https://www.facebook.com/tushar.bisht.96" class="fab fa-facebook e mr-3"></a>
+              <a href="https://twitter.com/tusharbisht17" class="fab fa-twitter e mr-3"></a>
+              <a href="https://www.linkedin.com/in/tushar-bisht-943297170/" class="fab fa-linkedin e mr-3"></a>
+              <a href="https://www.instagram.com/web_talks/" class="fab fa-instagram e"></a>
             </div>
+    
          </div>
       </footer>
       <script>
@@ -328,7 +329,7 @@
              document.getElementById("logo").style.fontSize = "20px";
            } else {
              document.getElementById("navbar").style.padding = "15px 15px";
-             document.getElementById("logo").style.fontSize = "30px";
+             document.getElementById("logo").style.fontSize = "25px";
            }
          }
       </script>

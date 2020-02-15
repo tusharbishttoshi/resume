@@ -155,3 +155,13 @@ margin-left: -15px;
   text-decoration: none;
   color: white;
 }
+.bleft
+{
+  border-left: 6px solid #1abc9c;
+  background-color: lightgrey;
+  width: 100%;
+}
+.ac
+{
+  font-family:"Aclonica";
+}
